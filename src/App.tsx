@@ -1,8 +1,11 @@
 import React from 'react';
 
-const App = () => {
+import Header from "./components/Header";
+
+const App = ():JSX.Element => {
   return(
     <div>
+      <Header />
       <h1>Guides of Varanasi 1.0</h1>
     </div>
   );

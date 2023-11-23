@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 
 const Header = ():JSX.Element => {
   return(
     <div>
-      <h1>Header</h1>
+      <Navbar />
     </div>
   );
 }
